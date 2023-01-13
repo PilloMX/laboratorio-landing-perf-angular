@@ -1,10 +1,10 @@
 module.exports = {
   ci: {
     collect: {
-      startServerCommand: "npm run start:prod",
+      startServerCommand: "npm run start",
       url: ["http://localhost:8080"],
       numberOfRuns: 3,
-      chromePath: "/bin/google-chrome",
+      //chromePath: "CHROME_PATH",
     },
     assert: {
       assertions: {
